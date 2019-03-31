@@ -1,0 +1,53 @@
+
+attach(LabsCorePopulatedTable)
+attach(PatientCorePopulatedTable)
+
+one way encryption 
+
+1)blowfish
+update public."df" set "PatientID"=crypt('7',gen_salt('bf'));
+update public."df" set "PatientMaritalStatus"=crypt('7',gen_salt('bf'));
+update public."df" set "PatientLanguage"=crypt('7',gen_salt('bf'));
+update public."df" set "PatientGender"=crypt('7',gen_salt('bf'));
+
+2)aes
+update public."df2" set "PatientID"=pgp_sym_encrypt("PatientID",'compress-algo=1, cipher-algo=aes512')
+update public."df2" set "PatientMaritalStatus"=pgp_sym_encrypt("PatientMaritalStatus",'compress-algo=1, cipher-algo=aes512')
+update public."df2" set "PatientLanguage"=pgp_sym_encrypt("PatientLanguage",'compress-algo=1, cipher-algo=aes512')
+
+
+
+3)des
+update public."df3" set "PatientID"=crypt('7',gen_salt('des'));
+update public."df3" set "Patient?aritalStatus"=crypt('7',gen_salt('des'));
+update public."df3" set "PatientGender"=crypt('7',gen_salt('des'));
+update public."df3" set "PatientRace"=crypt('7',gen_salt('des'));
+
+3)xdes
+update public."df4" set "PatientID"=crypt('7',gen_salt('xdes'));
+update public."df4" set "Patient?aritalStatus"=crypt('7',gen_salt('xdes'));
+update public."df4" set "PatientGender"=crypt('7',gen_salt('xdes'));
+update public."df4" set "PatientRace"=crypt('7',gen_salt('xdes'));
+
+
+
+
+
+
+1)md5
+UPDATE public."df5" SET "PatientID" = crypt('GHTGH', gen_salt('md5'));
+UPDATE public."df5" SET "PatientGender" = crypt('GHTGH', gen_salt('md5'));
+UPDATE public."df5" SET "PatientRace" = crypt('GHTGH', gen_salt('md5'));
+UPDATE public."df5" SET "PatientMaritalStatus" = crypt('GHTGH', gen_salt('md5'));
+UPDATE public."df5" SET "PatientLanguage" = crypt('GHTGH', gen_salt('md5'));
+
+
+
+
+2)sha512
+update public."df1" set "PatientLanguage"=pgp_sym_encrypt("PatientLanguage",'compress-algo=1, cipher-algo=sha512')
+
+
+
+3)hmac
+
