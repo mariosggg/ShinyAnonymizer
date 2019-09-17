@@ -7,4 +7,8 @@ Features
 
 A tool enabling non-expert users to use and combine of state of the art privacy models
 
+ .Anonymization privacy models (Fake Data, Replace characters by random letters and numbers, removing information, suppression, generalization, bottom and top coding)
+ .Hashing privacy models (md5, crc32, sha512, xxhash64)
+ .Encryption privacy models (Des, X-Des, Aes-512, blowfish)
+
 
