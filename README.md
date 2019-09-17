@@ -4,3 +4,7 @@ Processing and managing sensitive health data requires a high standard of securi
 
 
 Features
+
+A tool enabling non-expert users to use and combine of state of the art privacy models
+
+
