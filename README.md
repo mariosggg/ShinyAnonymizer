@@ -17,7 +17,7 @@ Multiple data analysis visualization paradigms and statistics
   
  • 	pie charts, bar charts, area charts, histograms and scatter plots 
  
- 
+Requirements
  
  
  
