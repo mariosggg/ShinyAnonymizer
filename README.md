@@ -1,2 +1,3 @@
 # ShinyAnonymizer
-https://user-images.githubusercontent.com/47419196/65086173-6f3da980-d9b9-11e9-86e7-0b4fce65f4ef.jpg
+
+![Load Data](https://user-images.githubusercontent.com/47419196/65086350-0f93ce00-d9ba-11e9-9267-2bfb0dc7e107.jpg)
