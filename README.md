@@ -20,8 +20,11 @@ Multiple data analysis visualization paradigms and statistics
 Requirements
 
 •	R-STUDIO
+
 •	SHINY
+
 •	POSTGRESQL
+
 •	PGCRYPTO
 
 The GUI of the system
