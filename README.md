@@ -16,6 +16,8 @@ A tool enabling non-expert users to use and combine of state of the art privacy 
 Multiple data analysis visualization paradigms and statistics
   
  • 	pie charts, bar charts, area charts, histograms and scatter plots 
+ 
+The GUI of the system
 
 
 
