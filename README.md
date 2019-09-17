@@ -5,7 +5,7 @@ Processing and managing sensitive health data requires a high standard of securi
 
 Features
 
-  A tool enabling non-expert users to use and combine of state of the art privacy models
+A tool enabling non-expert users to use and combine of state of the art privacy models
 
  •	Anonymization privacy models (Fake Data, Replace characters by random letters and numbers, removing information, suppression, generalization, bottom and top coding)
  
@@ -13,6 +13,11 @@ Features
  
  •	Encryption privacy models (Des, X-Des, Aes-512, blowfish)
  
-  Multiple data analysis visualization paradigms and statistics
+Multiple data analysis visualization paradigms and statistics
+  
+ • 	pie charts, bar charts, area charts, histograms and scatter plots 
+
+
+
 
 
