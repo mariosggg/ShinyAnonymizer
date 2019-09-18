@@ -13,9 +13,11 @@ A tool enabling non-expert users to use and combine of state of the art privacy 
  
  •	Encryption privacy models (Des, X-Des, Aes-512, blowfish)
  
+ 
 Multiple data analysis visualization paradigms and statistics
   
  • 	pie charts, bar charts, area charts, histograms and scatter plots 
+ 
  
 Requirements
 
