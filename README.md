@@ -35,9 +35,8 @@ The GUI of the system
 Encrypted Data
 ![All_encryption Algorithms together](https://user-images.githubusercontent.com/47419196/65088223-30135680-d9c1-11e9-938e-d09f9a64fb27.jpg)
 
-Hashed Data
 
-![Hashing Algorithms All together](https://user-images.githubusercontent.com/47419196/65088372-c9426d00-d9c1-11e9-8081-41823373503a.jpg)
+Hashed Data![Hashing Algorithms All together](https://user-images.githubusercontent.com/47419196/65088372-c9426d00-d9c1-11e9-8081-41823373503a.jpg)
 
 
 
