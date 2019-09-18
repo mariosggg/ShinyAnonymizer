@@ -50,6 +50,8 @@ Visualized Data
 
 ![DashBoard](https://user-images.githubusercontent.com/47419196/65088707-fba09a00-d9c2-11e9-9287-821b8ae5291a.jpg)
 
+Summary Statistics
+
 
 
 
