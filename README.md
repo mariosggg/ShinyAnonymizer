@@ -52,6 +52,8 @@ Visualized Data
 
 Summary Statistics
 
+![Summary_Statistics](https://user-images.githubusercontent.com/47419196/65088788-53d79c00-d9c3-11e9-911f-87d530bd6923.jpg)
+
 
 
 
