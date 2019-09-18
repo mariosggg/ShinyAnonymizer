@@ -46,6 +46,9 @@ Anonymized Data
 
 ![Anonymization_Algorithms All together](https://user-images.githubusercontent.com/47419196/65088516-68fffb00-d9c2-11e9-8a33-97eae0436af6.jpg)
 
+Vizualized Data
+
+
 
 
 
