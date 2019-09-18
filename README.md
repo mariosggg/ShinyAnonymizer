@@ -30,11 +30,17 @@ Requirements
 •	PGCRYPTO
 
 The GUI of the system
+
 ![Load Data](https://user-images.githubusercontent.com/47419196/65087774-9e571980-d9bf-11e9-9473-ba93d5991cd4.jpg)
 Encrypted Data
+
 ![All_encryption Algorithms together](https://user-images.githubusercontent.com/47419196/65088223-30135680-d9c1-11e9-938e-d09f9a64fb27.jpg)
-Hashed Data![Hashing Algorithms All together](https://user-images.githubusercontent.com/47419196/65088372-c9426d00-d9c1-11e9-8081-41823373503a.jpg)
+
+Hashed Data
+
+![Hashing Algorithms All together](https://user-images.githubusercontent.com/47419196/65088372-c9426d00-d9c1-11e9-8081-41823373503a.jpg)
 Anonymized Data
+
 ![Anonymization_Algorithms All together](https://user-images.githubusercontent.com/47419196/65088516-68fffb00-d9c2-11e9-8a33-97eae0436af6.jpg)
 
 
