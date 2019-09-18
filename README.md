@@ -33,6 +33,11 @@ The GUI of the system
 
 ![Load Data](https://user-images.githubusercontent.com/47419196/65087774-9e571980-d9bf-11e9-9473-ba93d5991cd4.jpg)
 
+Anonymized Data
+
+![Anonymization_Algorithms All together](https://user-images.githubusercontent.com/47419196/65088049-9186f580-d9c0-11e9-8c38-93217fd19108.jpg)
+
+
 
 
 
