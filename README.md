@@ -39,6 +39,7 @@ Encrypted Data
 
 Hashed Data
 
+![Hashing Algorithms All together](https://user-images.githubusercontent.com/47419196/65088372-c9426d00-d9c1-11e9-8081-41823373503a.jpg)
 
 
 
