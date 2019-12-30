@@ -19,7 +19,7 @@ Multiple data analysis visualization paradigms and statistics
  • 	Pie charts, Bar charts, Area charts, Histograms and Scatter plots 
  
  
-Requirements
+Technologies
 
 •	R-STUDIO
 
