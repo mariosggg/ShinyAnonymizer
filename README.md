@@ -46,13 +46,13 @@ To successfully install and run ShinyAnonymizer, ensure you have the following c
 Once all dependencies are installed and configured, to run the ShinyAnonymizer app:
 1. Ensure your ShinyAnonymizer app script (e.g., `app.R`) is in your working directory.
 2. Run the following command:
-   ```R
+```R
 runApp("path/to/your/app.R", launch.browser = TRUE)
- 
+```
 or if the script is in the working directory:
-
+```
 shiny::runApp()
-
+```
 ## Step 5: Interact with the App
 
 Once the app starts, your default web browser should open the ShinyAnonymizer interface. From there, you can:
