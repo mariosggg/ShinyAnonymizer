@@ -48,10 +48,9 @@ Once all dependencies are installed and configured, to run the ShinyAnonymizer a
 2. Run the following command:
    ```R
 runApp("path/to/your/app.R", launch.browser = TRUE)
- ```
-
+ 
 or if the script is in the working directory:
-```R
+
 shiny::runApp()
 
 ## Step 5: Interact with the App
