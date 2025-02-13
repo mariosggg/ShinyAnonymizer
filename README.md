@@ -1,33 +1,54 @@
-ShinyAnonymizer: A Tool for Anonymizing Health Data
+# ShinyAnonymizer - README
 
-Processing and managing sensitive health data requires a high standard of security and privacy measures to ensure that all ethical and legal requirements are respected. Data anonymization is one of the key technologies to this purpose.However,the plethora and the complexity of the available anonymization techniques make it difficult for a non-expert to select and apply the appropriate technique. In this paper, we report on Shiny Database Anonymizer,a tool enabling the easy and flexible anonymization of available health data,providing access to state of the art anonymization techniques, incorporating also multiple data analysis visualization paradigms.In addition, a number of encryption and hashing techniques are presented.   
+## Overview
+ShinyAnonymizer is a powerful tool designed for anonymizing and encrypting sensitive datasets using R and PostgreSQL. It provides various anonymization techniques, encryption algorithms, and hashing methods to ensure data privacy and security, complying with regulations like GDPR.
 
+## Dependencies
+To successfully install and run ShinyAnonymizer, ensure you have the following components installed:
 
-Features
+### Required Software
+- **R (Version 4.4.2 or later)** - Programming language required for running the tool.
+- **R-Studio** - IDE for running R scripts efficiently.
+- **PostgreSQL (Version 12.22 or later)** - Database management system for handling datasets.
 
-A tool enabling non-expert users to use and combine of state of the art privacy models
+## Installation Guide
 
- •	Anonymization privacy models (Fake Data, Replace characters by random letters and numbers, removing information, suppression, generalization, bottom and top coding)
- 
- •	Hashing privacy models (md5, crc32, sha512, xxhash64)
- 
- •	Encryption privacy models (Des, X-Des, Aes-512, blowfish)
- 
- 
-Multiple data analysis visualization paradigms and statistics
-  
- • 	Pie charts, Bar charts, Area charts, Histograms and Scatter plots 
- 
- 
-Technologies
+### Step 1: Install R and R-Studio
+1. Download R version 4.4.2 from the official website: [https://cran.r-project.org/](https://cran.r-project.org/).
+2. Install R following the on-screen instructions.
+3. Download R-Studio from: [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/).
+4. Install R-Studio and ensure it detects your R installation.
 
-•	R-STUDIO
+### Step 2: Install PostgreSQL
+1. Download PostgreSQL 12.22 from the official website: [https://www.postgresql.org/download/](https://www.postgresql.org/download/).
+2. Run the executable file and follow the installation instructions.
+3. During installation, select the 12.22 v1 package from the available package options.
+4. Set up a password (choose a secure password of your liking).
+5. Use port 5432 (recommended) for PostgreSQL.
 
-•	SHINY
+### Step 3: Configure R-Studio
+1. Open R-Studio.
+2. Install all recommended packages and updates for R-Studio.
+3. Navigate to Tools → Install Packages and install the required R packages:
+   - `digest`
+   - `RPostgreSQL`
+   - `Plotly`
+   - `dplyr`
+   - `Shiny`
 
-•	POSTGRESQL
+### Step 4: Configure PostgreSQL Database
+1. Open PGAdmin (PostgreSQL's GUI management tool).
+2. Create a new database for storing datasets.
+3. Load your dataset into the newly created database.
+4. Once the data is uploaded, you can close PGAdmin.
 
-•	PGCRYPTO
+## Usage
+Once all dependencies are installed and configured, to run the ShinyAnonymizer app:
+1. Ensure your ShinyAnonymizer app script (e.g., `app.R`) is in your working directory.
+2. Run the following command:
+   ```R
+   runApp("path/to/your/app.R", launch.browser = TRUE)
+
 
 The GUI of the system
 
