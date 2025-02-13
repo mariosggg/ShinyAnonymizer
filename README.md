@@ -49,6 +49,35 @@ Once all dependencies are installed and configured, to run the ShinyAnonymizer a
    ```R
    runApp("path/to/your/app.R", launch.browser = TRUE)
 
+or if the script is in the working directory:
+```R
+shiny::runApp()
+```
+## Step 5: Interact with the App
+
+Once the app starts, your default web browser should open the ShinyAnonymizer interface. From there, you can:
+
+1.Load datasets from PostgreSQL.
+2.Apply anonymization, encryption, and hashing.
+3.Visualize anonymized data with Plotly.
+
+
+## Key Features
+1.Data Anonymization: Suppression, Generalization, Removing Information, and Bottom Coding.
+2.Data Encryption: DES, XDES, BLOWFISH, and AES-512 encryption methods.
+3.Hashing Algorithms: MD5, SHA-512, CRC32, and XXHASH64.
+4.Database Integration: Securely store and retrieve data from PostgreSQL.
+5.Data Visualization: Generate graphical representations of anonymized datasets.
+
+## Troubleshooting
+1.If PostgreSQL does not connect, ensure port 5432 is open and the correct credentials are used.
+2.Ensure all required R packages are installed before executing the scripts.
+3.Restart R-Studio if you encounter package dependency errors.
+
+## License
+
+ShinyAnonymizer is a proprietary software product available under the author's license. Unauthorized distribution, modification, or commercial use without prior approval is strictly prohibited.
+
 
 The GUI of the system
 
