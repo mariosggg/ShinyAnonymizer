@@ -62,22 +62,6 @@ Once the app starts, your default web browser should open the ShinyAnonymizer in
 3.Visualize anonymized data with Plotly.
 
 
-## Key Features
-1.Data Anonymization: Suppression, Generalization, Removing Information, and Bottom Coding.
-2.Data Encryption: DES, XDES, BLOWFISH, and AES-512 encryption methods.
-3.Hashing Algorithms: MD5, SHA-512, CRC32, and XXHASH64.
-4.Database Integration: Securely store and retrieve data from PostgreSQL.
-5.Data Visualization: Generate graphical representations of anonymized datasets.
-
-## Troubleshooting
-1.If PostgreSQL does not connect, ensure port 5432 is open and the correct credentials are used.
-2.Ensure all required R packages are installed before executing the scripts.
-3.Restart R-Studio if you encounter package dependency errors.
-
-## License
-
-ShinyAnonymizer is a proprietary software product available under the author's license. Unauthorized distribution, modification, or commercial use without prior approval is strictly prohibited.
-
 
 The GUI of the system
 
@@ -105,13 +89,20 @@ Summary Statistics
 ![Summary_Statistics](https://user-images.githubusercontent.com/47419196/65088788-53d79c00-d9c3-11e9-911f-87d530bd6923.jpg)
 
 
-Key Features
-1.Data Anonymization: Suppression, Generalization, Removing Information, and Bottom Coding. 2.Data Encryption: DES, XDES, BLOWFISH, and AES-512 encryption methods. 3.Hashing Algorithms: MD5, SHA-512, CRC32, and XXHASH64. 4.Database Integration: Securely store and retrieve data from PostgreSQL. 5.Data Visualization: Generate graphical representations of anonymized datasets.
+## Key Features
+1.Data Anonymization: Suppression, Generalization, Removing Information, and Bottom Coding.
+2.Data Encryption: DES, XDES, BLOWFISH, and AES-512 encryption methods.
+3.Hashing Algorithms: MD5, SHA-512, CRC32, and XXHASH64.
+4.Database Integration: Securely store and retrieve data from PostgreSQL.
+5.Data Visualization: Generate graphical representations of anonymized datasets.
 
-Troubleshooting
-1.If PostgreSQL does not connect, ensure port 5432 is open and the correct credentials are used. 2.Ensure all required R packages are installed before executing the scripts. 3.Restart R-Studio if you encounter package dependency errors.
+## Troubleshooting
+1.If PostgreSQL does not connect, ensure port 5432 is open and the correct credentials are used.
+2.Ensure all required R packages are installed before executing the scripts.
+3.Restart R-Studio if you encounter package dependency errors.
 
-License
+## License
+
 ShinyAnonymizer is a proprietary software product available under the author's license. Unauthorized distribution, modification, or commercial use without prior approval is strictly prohibited.
 
 
